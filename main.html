@@ -32,8 +32,8 @@
     </tbody>
   </table>
 
-  <!-- Heading between table and list -->
-  List of medias
+  <!-- Proper heading -->
+  <h1>List of medias</h1>
 
   <!-- Ordered list of media items -->
   <ol>
@@ -46,8 +46,9 @@
       </video>
     </li>
     <li>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" />
+      <!-- ⛳️ Fix: Put src directly in <audio> tag -->
+      <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+        Your browser does not support the audio element.
       </audio>
     </li>
   </ol>
